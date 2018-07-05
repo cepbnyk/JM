@@ -1,60 +1,68 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class DiceScript : MonoBehaviour
 {
-	public static DiceScript Instance { get; set; }
+	private Rigidbody _rb;
+	private bool _haslanded, _thrown;
+	private Vector3 _initPos;
+	public GameManager Gm;
+	public bool HasValue;
 
-	public static DiceScript GetInstance()
-	{
-		if (Instance == null)
-		{
-			return FindObjectOfType<DiceScript>();
-		}
-
-		return Instance;
-	}
-	public float forceAmount = 20f;
-	public float torqueAmount = 50f;
-	public bool roll;
-	public ForceMode forceMode;
-	private Transform[] _dice;
-	private float nextRoll;
-	private float RollRate = .5f;
+	public int DiceValue =0;
 
 	private void Start()
 	{
-		_dice = GetComponentsInChildren<Transform>();
-		for (int i = 0; i < _dice.Length; i++)
-		{
-			Debug.Log(_dice[i].transform.position);
-		}
-		
-	}
-
-	public void Roll()
-	{
-		if (roll)
-			roll = false;
-		else
-			roll = true;
-		
-		
+		_rb = GetComponent<Rigidbody>();
+		_initPos = new Vector3(Random.Range(-20,20), 35, Random.Range(-15,15));
+		_rb.useGravity = false;
 	}
 
 	private void Update()
 	{
-		if (roll && Time.time>nextRoll)
+		if (Gm.RollBool)
 		{
-			nextRoll = Time.time + RollRate;
-			Debug.Log("Rolled");
-			for (int i = 0; i < 6; i++)
+			if (!_thrown && !_haslanded)
 			{
-				transform.GetChild(i).GetComponent<Rigidbody>().AddForce(Random.onUnitSphere*forceAmount, forceMode);
-				transform.GetChild(i).GetComponent<Rigidbody>().AddTorque(Random.onUnitSphere*torqueAmount,forceMode);
-			
+				_thrown = true;
+				_rb.useGravity = true;
+				_rb.AddTorque(Random.Range(0,5),Random.Range(0,5),Random.Range(0,5));
 			}
+			else if (_thrown && _haslanded)
+			{
+				HasValue = true;
+			}
+			
 		}
-		
+
+		if (_rb.IsSleeping() && !_haslanded && _thrown)
+		{
+			_haslanded = true;
+			_rb.useGravity = false;
+		}
+		/*else if (_rb.IsSleeping() && _haslanded && DiceValue == 0)
+		{
+			RollAgain();
+			Debug.Log("RollAgain");
+		}*/
+	}
+
+	public void Reset()
+	{
+		transform.position = _initPos;
+		_thrown = false;
+		_haslanded = false;
+		_rb.useGravity = false;
+		//Gm.RollBool = false; //yo chai roll off garne paxi antai change hunxa hai 
+	}
+	
+	void RollAgain()
+	{
+		Reset();
+		_thrown = true;
+		_rb.useGravity = true;
+		_rb.AddTorque(Random.Range(0,5),Random.Range(0,5),Random.Range(0,5));
 	}
 }
-

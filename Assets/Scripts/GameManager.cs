@@ -1,28 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngineInternal;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
+	private bool _roll;
+	
+	// Update is called once per frame
+	public DiceScript[] Dice;
 
 	
-	public static GameManager Instance { get; set; }
-
-	public static GameManager GetInstance()
+	public bool RollBool
 	{
-		if (Instance == null)
+		get { return _roll; }
+		set
 		{
-			return FindObjectOfType<GameManager>();
+			if (!_roll)
+				value = true;
+			else
+				value = false;
+			_roll = value;
+			Debug.Log(_roll);
 		}
-
-		return Instance;
 	}
 
-
-	//public bool Roll;
-
-	
-	public void RollDices()
+	private void Update()
 	{
-		GameObject.FindGameObjectWithTag("Dice").GetComponentInChildren<DiceScript>().Roll();
+		if (Dice[0].HasValue && Dice[1].HasValue && Dice[2].HasValue && Dice[3].HasValue && Dice[4].HasValue &&
+		    Dice[5].HasValue)
+		{
+			for (int i = 0; i < 6; i++)
+			{
+				Dice[i].Reset();
+				Dice[i].HasValue = false;
+			}
+			
+			RollBool = false;
+		}
 	}
 }

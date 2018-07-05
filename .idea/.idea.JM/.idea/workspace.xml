@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a61f5a7-f632-4c8b-92b1-d1bcd2807182" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.JM/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.3ds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.3ds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.dae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.dae.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Formats/dice.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/Preview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/READ ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender/Not Free/Dice/READ ME.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -22,22 +41,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiceScript.cs" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <marker date="1530816924223" expanded="true" signature="6:78" ph="..." />
+                <marker date="1530816924223" expanded="true" signature="147:690" ph="{...}" />
+                <marker date="1530816924223" expanded="true" signature="260:403" ph="{...}" />
+                <marker date="1530816924223" expanded="true" signature="293:400" ph="{...}" />
+                <marker date="1530816924223" expanded="true" signature="427:688" ph="{...}" />
+                <marker date="1530816924223" expanded="true" signature="560:685" ph="{...}" />
+                <marker date="1530816924223" expanded="true" signature="595:656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiceScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
-                <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-                <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
+                <marker date="1530816254663" expanded="false" signature="6:121" ph="..." />
+                <marker date="1530816254663" expanded="true" signature="162:1363" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="347:488" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="512:1002" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="534:775" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="570:701" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="736:767" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="826:883" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="886:999" ph="/* else if (_rb.IsSleeping() &amp;&amp; _haslanded &amp;&amp; DiceValue == 0) ... */" />
+                <marker date="1530816254663" expanded="true" signature="1024:1209" ph="{...}" />
+                <marker date="1530816254663" expanded="true" signature="1229:1361" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,8 +95,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +109,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="153" />
     <option name="y" value="132" />
     <option name="width" value="1440" />
@@ -93,11 +132,11 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,11 +178,14 @@
       <workItem from="1530553492450" duration="52000" />
       <workItem from="1530553562510" duration="797000" />
       <workItem from="1530554380965" duration="6244000" />
+      <workItem from="1530589531887" duration="899000" />
+      <workItem from="1530767287214" duration="1471000" />
+      <workItem from="1530810359748" duration="7131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7718000" />
+    <option name="totallyTimeSpent" value="17219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,31 +197,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Errors In Solution" order="0" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="NuGet" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Unity" order="13" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18229167" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="13" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
     </layout>
   </component>
@@ -193,112 +234,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state>
           <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
+            <marker date="1530816254663" expanded="false" signature="6:121" ph="..." />
+            <marker date="1530816254663" expanded="true" signature="162:1363" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="347:488" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="512:1002" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="534:775" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="570:701" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="736:767" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="826:883" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="886:999" ph="/* else if (_rb.IsSleeping() &amp;&amp; _haslanded &amp;&amp; DiceValue == 0) ... */" />
+            <marker date="1530816254663" expanded="true" signature="1024:1209" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="1229:1361" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="93" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="93" />
-          <folding>
-            <marker date="1530557801024" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530557801024" expanded="true" signature="121:465" ph="{...}" />
-            <marker date="1530557801024" expanded="true" signature="217:318" ph="{...}" />
-            <marker date="1530557801024" expanded="true" signature="244:295" ph="{...}" />
-            <marker date="1530557801024" expanded="true" signature="369:463" ph="{...}" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -306,16 +262,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
           <folding>
-            <marker date="1530562214515" expanded="true" signature="59:1102" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="151:251" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="178:228" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="473:622" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="565:616" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="643:707" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="731:1100" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="768:1094" ph="{...}" />
-            <marker date="1530562214515" expanded="true" signature="863:1090" ph="{...}" />
+            <marker date="1530816254663" expanded="false" signature="6:121" ph="..." />
+            <marker date="1530816254663" expanded="true" signature="162:1363" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="347:488" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="512:1002" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="534:775" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="570:701" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="736:767" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="826:883" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="886:999" ph="/* else if (_rb.IsSleeping() &amp;&amp; _haslanded &amp;&amp; DiceValue == 0) ... */" />
+            <marker date="1530816254663" expanded="true" signature="1024:1209" ph="{...}" />
+            <marker date="1530816254663" expanded="true" signature="1229:1361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <marker date="1530816924223" expanded="true" signature="6:78" ph="..." />
+            <marker date="1530816924223" expanded="true" signature="147:690" ph="{...}" />
+            <marker date="1530816924223" expanded="true" signature="260:403" ph="{...}" />
+            <marker date="1530816924223" expanded="true" signature="293:400" ph="{...}" />
+            <marker date="1530816924223" expanded="true" signature="427:688" ph="{...}" />
+            <marker date="1530816924223" expanded="true" signature="560:685" ph="{...}" />
+            <marker date="1530816924223" expanded="true" signature="595:656" ph="{...}" />
           </folding>
         </state>
       </provider>
