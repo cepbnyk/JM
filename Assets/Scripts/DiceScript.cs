@@ -7,16 +7,17 @@ public class DiceScript : MonoBehaviour
 {
 	private Rigidbody _rb;
 	private bool _haslanded, _thrown;
-	private Vector3 _initPos;
+	//private Vector3 _initPos;
 	public GameManager Gm;
 	public bool HasValue;
+	public ForceMode fm;
 
 	public int DiceValue =0;
 
 	private void Start()
 	{
 		_rb = GetComponent<Rigidbody>();
-		_initPos = new Vector3(Random.Range(-20,20), 35, Random.Range(-15,15));
+		transform.position = new Vector3(Random.Range(-18,18), 35, Random.Range(-8,8));
 		_rb.useGravity = false;
 	}
 
@@ -28,6 +29,7 @@ public class DiceScript : MonoBehaviour
 			{
 				_thrown = true;
 				_rb.useGravity = true;
+				_rb.AddForce(Random.onUnitSphere*20,fm);
 				_rb.AddTorque(Random.Range(0,5),Random.Range(0,5),Random.Range(0,5));
 			}
 			else if (_thrown && _haslanded)
@@ -40,7 +42,7 @@ public class DiceScript : MonoBehaviour
 		if (_rb.IsSleeping() && !_haslanded && _thrown)
 		{
 			_haslanded = true;
-			_rb.useGravity = false;
+		//	_rb.useGravity = false;
 		}
 		/*else if (_rb.IsSleeping() && _haslanded && DiceValue == 0)
 		{
@@ -51,10 +53,10 @@ public class DiceScript : MonoBehaviour
 
 	public void Reset()
 	{
-		transform.position = _initPos;
+		transform.position = new Vector3(Random.Range(-18,18), 35, Random.Range(-8,8));
 		_thrown = false;
 		_haslanded = false;
-		_rb.useGravity = false;
+		//_rb.useGravity = false;
 		//Gm.RollBool = false; //yo chai roll off garne paxi antai change hunxa hai 
 	}
 	

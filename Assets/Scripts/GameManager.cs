@@ -16,14 +16,21 @@ public class GameManager : MonoBehaviour
 		get { return _roll; }
 		set
 		{
+			for (int i = 0; i < 6; i++)
+			{
+				Dice[i].Reset();
+				//Dice[i].HasValue = false;
+			}
 			if (!_roll)
 				value = true;
 			else
 				value = false;
 			_roll = value;
+			
 			Debug.Log(_roll);
 		}
 	}
+/*
 
 	private void Update()
 	{
@@ -38,5 +45,5 @@ public class GameManager : MonoBehaviour
 			
 			RollBool = false;
 		}
-	}
+	}*/
 }
