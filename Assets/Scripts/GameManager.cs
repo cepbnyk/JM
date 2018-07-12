@@ -16,11 +16,11 @@ public class GameManager : MonoBehaviour
 		get { return _roll; }
 		set
 		{
-			for (int i = 0; i < 6; i++)
+			/*for (int i = 0; i < 6; i++)
 			{
 				Dice[i].Reset();
 				//Dice[i].HasValue = false;
-			}
+			}*/
 			if (!_roll)
 				value = true;
 			else
@@ -28,6 +28,16 @@ public class GameManager : MonoBehaviour
 			_roll = value;
 			
 			Debug.Log(_roll);
+		}
+	}
+
+	public void ResetDice()
+	{
+		_roll = false;
+		for (int i = 0; i < 6; i++)
+		{
+			Dice[i].Reset();
+			//Dice[i].HasValue = false;
 		}
 	}
 /*

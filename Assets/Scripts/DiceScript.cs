@@ -19,6 +19,7 @@ public class DiceScript : MonoBehaviour
 		_rb = GetComponent<Rigidbody>();
 		transform.position = new Vector3(Random.Range(-18,18), 35, Random.Range(-8,8));
 		_rb.useGravity = false;
+		_rb.isKinematic = true;
 	}
 
 	private void Update()
@@ -29,8 +30,10 @@ public class DiceScript : MonoBehaviour
 			{
 				_thrown = true;
 				_rb.useGravity = true;
-				_rb.AddForce(Random.onUnitSphere*20,fm);
-				_rb.AddTorque(Random.Range(0,5),Random.Range(0,5),Random.Range(0,5));
+				_rb.isKinematic = false;
+				_rb.AddForce(Vector3.down*20,fm);
+				_rb.AddTorque(Random.onUnitSphere*50, fm);
+				//_rb.AddTorque(Random.Range(0,5),Random.Range(0,5),Random.Range(0,5));
 			}
 			else if (_thrown && _haslanded)
 			{
@@ -42,6 +45,7 @@ public class DiceScript : MonoBehaviour
 		if (_rb.IsSleeping() && !_haslanded && _thrown)
 		{
 			_haslanded = true;
+			
 		//	_rb.useGravity = false;
 		}
 		/*else if (_rb.IsSleeping() && _haslanded && DiceValue == 0)
@@ -54,9 +58,11 @@ public class DiceScript : MonoBehaviour
 	public void Reset()
 	{
 		transform.position = new Vector3(Random.Range(-18,18), 35, Random.Range(-8,8));
+		
+		_rb.useGravity = false;
+		_rb.isKinematic = true;
 		_thrown = false;
 		_haslanded = false;
-		//_rb.useGravity = false;
 		//Gm.RollBool = false; //yo chai roll off garne paxi antai change hunxa hai 
 	}
 	
